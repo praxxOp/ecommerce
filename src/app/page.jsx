@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
+import data from "./data";
 
-const page = () => {
+
+
+const Page = () => {
   return (
-    <div>main</div>
-  )
-}
+    <>
+    main
+    </>
+  );
+};
 
-export default page
+export default Page;
