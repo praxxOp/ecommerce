@@ -1,12 +1,17 @@
 import React from "react";
-import data from "./data";
 
-
+import Home from "./Pagecomponents/Home/Home";
+import Brand from "./Pagecomponents/Brands/Brand";
+import Portfolio from "./Pagecomponents/Portfolio/Portfolio";
+import Slider from "./Pagecomponents/Slider/Slider";
 
 const Page = () => {
   return (
     <>
-    main
+      <Home />
+      <Brand />
+      <Portfolio />
+      <Slider />
     </>
   );
 };
